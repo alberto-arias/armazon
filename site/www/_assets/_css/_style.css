@@ -1,0 +1,420 @@
+/* --- VERTICAL RHYTHM --- */
+/* --- VERTICAL RHYTHM: Headings --- */
+/* --- VERTICAL RHYTHM: General Typography --- */
+/* --- FONT STACKS --- */
+/* --- COLOR PALETTE --- */
+/* --- COLOR SCHEME --- */
+/* line 17, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* --- VERTICAL RHYTHM --- */
+/* line 58, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+body {
+  font-size: 112.5%;
+  line-height: 1.5em;
+}
+
+/* line 62, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html > body {
+  font-size: 18px;
+}
+
+/* --- SECTIONS --- */
+/* line 10, ../_sass/_base.scss */
+body {
+  width: 100%;
+}
+
+/* line 14, ../_sass/_base.scss */
+body, pre, select, input, textarea, button {
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-weight: 400;
+}
+
+/* line 19, ../_sass/_base.scss */
+h1 {
+  margin-top: 1.33333em;
+  margin-bottom: 0.66667em;
+  font-size: 2.25em;
+  line-height: 1.33333em;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+/* line 27, ../_sass/_base.scss */
+h2 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  line-height: 2em;
+  font-weight: 700;
+}
+
+/* line 34, ../_sass/_base.scss */
+h3 {
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-weight: 700;
+}
+
+/* line 41, ../_sass/_base.scss */
+h4 {
+  margin-top: 1.5em;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 46, ../_sass/_base.scss */
+h5 {
+  margin-top: 1.5em;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 51, ../_sass/_base.scss */
+h6 {
+  margin-top: 1.5em;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* --- GROUPING --- */
+/* line 58, ../_sass/_base.scss */
+p, pre, blockquote, ul, ol, dl, table, fieldset {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #322828;
+}
+
+/* line 65, ../_sass/_base.scss */
+hr {
+  margin-top: 0.75em;
+  margin-bottom: 1.5em;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-weight: 600;
+  text-align: center;
+  border: 0;
+  padding: 0;
+  clear: both;
+  display: block;
+}
+
+/* line 76, ../_sass/_base.scss */
+hr::after {
+  content: "...";
+  color: #322828;
+  letter-spacing: 1em;
+  height: 0;
+}
+
+/* line 83, ../_sass/_base.scss */
+pre {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  font-family: monospace;
+  white-space: pre;
+  /* CSS2 */
+  white-space: pre-wrap;
+  /* CSS 2.1 */
+  white-space: pre-line;
+  /* CSS 2.1 & 3 */
+  word-wrap: break-word;
+  /* IE */
+}
+
+/* line 93, ../_sass/_base.scss */
+blockquote {
+  background: #cccccc;
+  background: rgba(204, 204, 204, 0.5);
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #322828;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+/* line 103, ../_sass/_base.scss */
+blockquote p {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+/* --- GROUPING: Lists --- */
+/* line 110, ../_sass/_base.scss */
+ul li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+/* line 114, ../_sass/_base.scss */
+ul li ul, ul li ol, ol li ul, ol li ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 118, ../_sass/_base.scss */
+ul li ul li {
+  list-style-type: circle;
+}
+
+/* line 121, ../_sass/_base.scss */
+ol li {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+/* line 125, ../_sass/_base.scss */
+li ul li, li ol li {
+  margin-left: 1.5em;
+}
+
+/* line 129, ../_sass/_base.scss */
+dt {
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* line 134, ../_sass/_base.scss */
+dd {
+  padding: 0 1.5em 0;
+}
+
+/* line 137, ../_sass/_base.scss */
+dd > * {
+  margin-top: 0;
+}
+
+/* --- GROUPING: Figures --- */
+/* line 145, ../_sass/_base.scss */
+figure img {
+  vertical-align: bottom;
+}
+
+/* line 149, ../_sass/_base.scss */
+figcaption {
+  clear: left;
+  margin-bottom: 1.5em;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #322828;
+  font-style: oblique;
+}
+
+/* --- TEXT-LEVEL SEMANTICS --- */
+/* line 161, ../_sass/_base.scss */
+a {
+  color: #0086ff;
+}
+
+/* line 164, ../_sass/_base.scss */
+a:focus {
+  outline: 1px solid #0086ff;
+}
+
+/* line 168, ../_sass/_base.scss */
+a:hover,
+a:active {
+  color: #ff7900;
+}
+
+/* line 171, ../_sass/_base.scss */
+a:active {
+  color: #005099;
+}
+
+/* line 175, ../_sass/_base.scss */
+em, em a, i, cite, cite a {
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-style: italic;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 181, ../_sass/_base.scss */
+strong, b {
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 190, ../_sass/_base.scss */
+:lang(es-es) > q,
+:lang(en-gb) > q,
+:lang(en-us) > q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 193, ../_sass/_base.scss */
+q::before {
+  content: open-quote;
+}
+
+/* line 194, ../_sass/_base.scss */
+q::after {
+  content: close-quote;
+}
+
+/* line 196, ../_sass/_base.scss */
+small {
+  font-size: 0.667em;
+  line-height: 2.24888em;
+  display: inline-block;
+  opacity: 0.9;
+}
+
+/* line 202, ../_sass/_base.scss */
+abbr {
+  font-weight: 400;
+  font-size: 0.667em;
+  line-height: 2.24888em;
+  opacity: 0.9;
+}
+
+/* line 209, ../_sass/_base.scss */
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted #322828;
+  cursor: help;
+}
+
+/* line 214, ../_sass/_base.scss */
+code {
+  font-family: Menlo, Monaco, "Courier New", Courier, monospace;
+  font-size: 0.667em;
+  line-height: 2.24888em;
+}
+
+/* line 218, ../_sass/_base.scss */
+code {
+  color: #322828;
+}
+
+/* line 221, ../_sass/_base.scss */
+code .comment {
+  color: #322828;
+}
+
+/* line 225, ../_sass/_base.scss */
+kbd {
+  margin: 0 0.25em;
+  /* 0 4px */
+  padding: 0.1429em 0.4286em;
+  /* 2px 6px */
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  color: #322828;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 400;
+  font-size: 0.667em;
+  line-height: 2.24888em;
+}
+
+/* line 236, ../_sass/_base.scss */
+sub {
+  font-size: smaller;
+  line-height: 90%;
+  vertical-align: sub;
+}
+
+/* line 242, ../_sass/_base.scss */
+sup {
+  font-size: smaller;
+  line-height: 90%;
+  vertical-align: super;
+}
+
+/* --- EDITS --- */
+/* line 250, ../_sass/_base.scss */
+mark, ins {
+  padding: 0 0.125em;
+  /* 0 2px */
+  background-color: #aee0dd;
+  line-height: 90%;
+}
+
+/* line 255, ../_sass/_base.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 258, ../_sass/_base.scss */
+del, s {
+  line-height: 90%;
+  text-decoration: line-through;
+}
+
+/* --- EMBEDDED CONTENT --- */
+/* line 265, ../_sass/_base.scss */
+img {
+  max-width: 100%;
+}
