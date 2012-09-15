@@ -329,42 +329,40 @@ small {
   font-size: 0.667em;
   line-height: 2.24888em;
   display: inline-block;
-  opacity: 0.9;
 }
 
-/* line 202, ../_sass/_base.scss */
+/* line 201, ../_sass/_base.scss */
 abbr {
   font-weight: 400;
   font-size: 0.667em;
   line-height: 2.24888em;
-  opacity: 0.9;
 }
 
-/* line 209, ../_sass/_base.scss */
+/* line 207, ../_sass/_base.scss */
 abbr[title],
 dfn[title] {
   border-bottom: 1px dotted #322828;
   cursor: help;
 }
 
-/* line 214, ../_sass/_base.scss */
+/* line 212, ../_sass/_base.scss */
 code {
   font-family: Menlo, Monaco, "Courier New", Courier, monospace;
   font-size: 0.667em;
   line-height: 2.24888em;
 }
 
-/* line 218, ../_sass/_base.scss */
+/* line 216, ../_sass/_base.scss */
 code {
   color: #322828;
 }
 
-/* line 221, ../_sass/_base.scss */
+/* line 219, ../_sass/_base.scss */
 code .comment {
   color: #322828;
 }
 
-/* line 225, ../_sass/_base.scss */
+/* line 223, ../_sass/_base.scss */
 kbd {
   margin: 0 0.25em;
   /* 0 4px */
@@ -379,14 +377,14 @@ kbd {
   line-height: 2.24888em;
 }
 
-/* line 236, ../_sass/_base.scss */
+/* line 234, ../_sass/_base.scss */
 sub {
   font-size: smaller;
   line-height: 90%;
   vertical-align: sub;
 }
 
-/* line 242, ../_sass/_base.scss */
+/* line 240, ../_sass/_base.scss */
 sup {
   font-size: smaller;
   line-height: 90%;
@@ -394,27 +392,27 @@ sup {
 }
 
 /* --- EDITS --- */
-/* line 250, ../_sass/_base.scss */
+/* line 248, ../_sass/_base.scss */
 mark, ins {
   padding: 0 0.125em;
   /* 0 2px */
-  background-color: #aee0dd;
+  background-color: #fff566;
   line-height: 90%;
 }
 
-/* line 255, ../_sass/_base.scss */
+/* line 253, ../_sass/_base.scss */
 ins {
   text-decoration: none;
 }
 
-/* line 258, ../_sass/_base.scss */
+/* line 256, ../_sass/_base.scss */
 del, s {
   line-height: 90%;
   text-decoration: line-through;
 }
 
 /* --- EMBEDDED CONTENT --- */
-/* line 265, ../_sass/_base.scss */
+/* line 263, ../_sass/_base.scss */
 img {
   max-width: 100%;
 }

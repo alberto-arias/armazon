@@ -196,13 +196,11 @@ q::after { content: close-quote; }
 small {
   @include adjust-font-size-to($t-size-small);
   display: inline-block;
-  opacity: 0.9;
 }
 
 abbr {
   font-weight: 400;
   @include adjust-font-size-to($t-size-abbr);
-  opacity: 0.9;
 }
 
 abbr[title],

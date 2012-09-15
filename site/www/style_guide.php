@@ -1,6 +1,6 @@
 <?php
 $page_title = 'Guía de Estilo';
-$page_styles = '.document { width: 80%; margin: 0 auto; }';
+$page_styles = '.document { width: 80%; margin: 0 auto; } footer p { text-align: center; }';
 include('_start.php');
 ?>
 
@@ -423,6 +423,9 @@ include('_start.php');
     </form>
   </div>
 </div>
+<footer role="contentinfo">
+  <p><small>Alberto Arias, 2012. Esta guía de estilo es una traducción al español con algunas adaptaciones de la <cite><a href="http://paulrobertlloyd.com/about/styleguide/" target="_blank">Styleguide</a></cite> de Paul Robert Lloyd.</small></p>
+</footer>
 
 <?php
 include('_end.php');
