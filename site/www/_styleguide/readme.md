@@ -54,3 +54,5 @@ To include the location of your css file and then uncomment it.
 
 This is by no means perfect, actually it's probably *much* less than perfect. I am happy for others to give ideas and add to the project.
 **Please Note:** This is my first Github project and I'm really not sure how to do this.
+
+This is a customized version of Luke Brooker's [Pattern-Response](https://github.com/lukebrooker/pattern-response).
