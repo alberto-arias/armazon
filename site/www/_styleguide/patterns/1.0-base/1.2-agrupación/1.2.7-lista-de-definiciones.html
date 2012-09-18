@@ -1,0 +1,12 @@
+<!--INFO!
+El elemento <code>&lt;dl&gt;</code> se utiliza para otro tipo de lista llamada lista de definiciones. En lugar de ítems, el contenido de un elemento <code>&lt;dl&gt;</code> consiste en parejas de elementos <code>&lt;dt&gt;</code> (Término de la definición) y <code>&lt;dd&gt;</code> (Descripción de la definición). Aunque recibe el nombre de &#8220;lista de definiciones&#8221;, el elemento <code>&lt;dl&gt;</code> puede utilizarse en otros escenarios donde sea aplicable una relación padre/hijo. Por ejemplo, puede usarse para marcar diálogos, con un elemento <code>&lt;dt&gt;</code> para cada interlocutor y un elemento <code>&lt;dd&gt;</code> que contenga sus palabras.
+/INFO-->
+<dl>
+  <dt>Esto es un término.</dt>
+  <dd>Esta es la definición del término anterior; término y definición están contenidas en un elemento <code>dl</code>.</dd>
+  <dt>Este es otro término.</dt>
+  <dd>Que tiene también su definición, en esta línea.</dd>
+  <dt>Esto es un término que comparte su definición con el término que aparece justo debajo.</dt>
+  <dt>Esto es otro término.</dt>
+  <dd>Los términos <code>dt</code> pueden aparecer solos sin un elemento <code>dd</code> que los acompañe, pero en tal caso <em>comparten</em> su descripción con el siguiente <code>dt</code> que aparezca. No está permitido incluir un <code>dd</code> sin un elemento padre <code>dt</code>.</dd>
+</dl>
