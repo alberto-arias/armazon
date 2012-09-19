@@ -23,7 +23,7 @@ URL: http://lukebrooker.com
 <link rel="stylesheet" href="pattern-response/google-code-prettify/prettify.css" />
 <!-- Style guide styles -->
 <!-- Compiles all the css files that are in the patterns directory -->
-<link rel="stylesheet" href="pattern-response/css/compiled.php">
+<!-- <link rel="stylesheet" href="pattern-response/css/compiled.php"> -->
 <!-- Uncomment and point this to any other custom css files you want to add -->
 <link rel="stylesheet" href="../_assets/_css/_style.css">
 </head>

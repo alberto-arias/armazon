@@ -1,0 +1,24 @@
+/* --- Base --- */
+
+.hlist li {
+  display: inline;
+  list-style-type: none;
+}
+
+/* --- Breadcrumbs --- */
+.hlist-breadcrumbs li:after {
+  content: "\0020 \00bb \0020";
+}
+.hlist-breadcrumbs li:last-child:after {
+  content: "";
+}
+
+/* --- Comma-separated Values --- */
+
+.hlist-csv li:after {
+	content: "\002c \0020";
+}
+.hlist-csv li:last-child:after {
+  content: "";
+}
+
