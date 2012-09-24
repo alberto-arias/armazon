@@ -1,0 +1,33 @@
+/* --- Bar Chart --- */
+
+.bar tbody th {
+  padding-right: 1em;
+  border: none;
+  text-align: right;
+}
+
+.bar tbody td {
+  width: 80%; /* Could be shortened (e.g., 10em) if thumbnails are included in the th headers */
+  border: none;
+  vertical-align: top;
+}
+
+.bar tbody td p {
+  position: relative;
+  top: 0;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  height: 1em;
+  text-align: right;
+  background-color: #ccc;
+}
+
+.bar tbody td p span {
+  position: absolute;
+  left: 100%;
+  margin-left: 0.6184em;
+}
+
+.bar tbody td div {
+  width: 100%;
+}
