@@ -1,0 +1,91 @@
+/* --- Horizontal List --- */
+
+.hlist li {
+  display: inline;
+  list-style-type: none;
+}
+
+/* --- Horizontal List | Breadcrumbs --- */
+.hlist-breadcrumbs li:after {
+  content: "\0020 \00bb \0020";
+}
+.hlist-breadcrumbs li:last-child:after {
+  content: "";
+}
+
+/* --- Horizontal List | Comma-separated Values --- */
+
+.hlist-csv li:after {
+  content: "\002c \0020";
+}
+.hlist-csv li:last-child:after {
+  content: "";
+}
+
+/* --- Bar Chart --- */
+
+.bar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bar tbody th {
+  padding-right: 1em;
+  border: none;
+  text-align: right;
+}
+
+.bar tbody td {
+  border: none;
+  vertical-align: top;
+  width: 5em;
+}
+
+.bar tbody td p {
+  position: relative;
+  top: 0;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  height: 1.25em;
+  text-align: right;
+  background-color: #ffd666;
+}
+
+.bar tbody td p span {
+  position: absolute;
+  left: 0;
+  margin-left: 0.5em;
+}
+
+/**
+ * Índice
+ */
+
+.pager li {
+	display: inline;
+	list-style-type: none;
+}
+
+.pager li.pager-first:after {
+	content: " ‹";
+}
+
+.pager li.pager-first.interval:after {
+	content: " «";
+}
+
+.pager li.pager-previous:after {
+	content: " ‹";
+}
+
+.pager li.pager-next:before {
+	content: "› ";
+}
+
+.pager li.pager-last:before {
+	content: "› ";
+}
+
+.pager li.pager-last.interval:before {
+	content: "» ";
+}
